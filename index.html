@@ -1,169 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Animation Using CSS</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Using CSS</title>
 
-        <style>
-            .animation{
-                margin: 17% 25%;
-            }
-            img{
-                height: 100px;
-            }
-            span{
-                margin-left: 12px;
-            }
-            marquee span{
-                margin: 0;
-                border: 36px solid black;
-                font-size: 250%;
-                background-color: black;
-                color: white;
-                border-radius: 180px;
-            }
-            .letter-b img{
-                animation:bounce 9.1s 3;
-            }
-            .letter-o img{
-                animation:bounce 9.2s 3;
-            }
-            .letter-u img{
-                animation:bounce 9.3s 3;
-            }
-            .letter-n1 img{
-                animation:bounce 9.4s 3;
-            }
-            .letter-c img{
-                animation:bounce 9.5s 3;
-            }
-            .letter-i img{
-                animation:bounce 9.6s 3;
-            }
-            .letter-n2 img{
-                animation:bounce 9.7s 3;
-            }
-            .letter-g img{
-                animation:bounce 9.8s 3;
-            }
-            .floor{
-                border: 2px solid orangered;
-                padding: 0;
-                margin:0;
-            }
-            @keyframes bounce {
-                0%{
-                    transform: translateY(-360%);
-                }
-                5%{
-                    transform: translateY(0%);
-                }
-                10%{
-                    transform: translateY(-324%);
-                }
-                15%{
-                    transform: translateY(0%);
-                }
-                20%{
-                    transform: translateY(-288%);
-                }
-                25%{
-                    transform: translateY(0%);
-                }
-                30%{
-                    transform: translateY(-252%);
-                }
-                35%{
-                    transform: translateY(0%);
-                }
-                40%{
-                    transform: translateY(-216%);
-                }
-                45%{
-                    transform: translateY(0%);
-                }
-                50%{
-                    transform: translateY(-180%);
-                }
-                55%{
-                    transform: translateY(0%);
-                }
-                60%{
-                    transform: translateY(-144%);
-                }
-                65%{
-                    transform: translateY(0%);
-                }
-                70%{
-                    transform: translateY(-108%);
-                }
-                75%{
-                    transform: translateY(0%);
-                }
-                80%{
-                    transform: translateY(-72%);
-                }
-                85%{
-                    transform: translateY(0%);
-                }
-                90%{
-                    transform: translateY(-36%);
-                }
-                95%{
-                    transform: translateY(0%);
-                }
-                100%{
-                    transform: translateY(0%);
-                }
-            }
-            
-            
-        </style>
-    </head>
+    <style>
+        .animation {
+            margin: 17% 25%;
+        }
 
-    <body>
-        <div class="animation">
-            <span class="letter-b">
-                <img src="../media/letter-b.png" alt="img">
-            </span>
-            <span class="letter-o">
-                <img src="../media/letter-o.png" alt="img">
+        img {
+            height: 100px;
+        }
 
-            </span>
-            <span class="letter-u">
-                <img src="../media/letter-u.png" alt="img">
+        span {
+            margin-left: 12px;
+        }
 
-            </span>
-            <span class="letter-n1">
-                <img src="../media/letter-n.png" alt="img">
+        marquee span {
+            margin: 0;
+            border: 36px solid black;
+            font-size: 250%;
+            background-color: black;
+            color: white;
+            border-radius: 180px;
+        }
 
-            </span>
-            <span class="letter-c">
-                <img src="../media/letter-c.png" alt="img">
+        .letter-b img {
+            animation: bounce 9.1s 3;
+        }
 
-            </span>
-            <span class="letter-i">
-                <img src="../media/letter-i.png" alt="img">
+        .letter-o img {
+            animation: bounce 9.2s 3;
+        }
 
-            </span>
-            <span class="letter-n2">
-                <img src="../media/letter-n.png" alt="img">
+        .letter-u img {
+            animation: bounce 9.3s 3;
+        }
 
-            </span>
-            <span class="letter-g">
-                <img src="../media/letter-g.png" alt="img">
+        .letter-n1 img {
+            animation: bounce 9.4s 3;
+        }
 
-            </span>
-            <div class="floor"></div>
-        </div>
+        .letter-c img {
+            animation: bounce 9.5s 3;
+        }
 
-        <marquee scrollamount="16s"><img src="../media/truck.gif" alt="" >*````````````````````<span>V I J A Y</span>``````<span>Y A D A V</span></marquee>
-        <div class="floor">
-        </div>
+        .letter-i img {
+            animation: bounce 9.6s 3;
+        }
 
-    </body>
+        .letter-n2 img {
+            animation: bounce 9.7s 3;
+        }
+
+        .letter-g img {
+            animation: bounce 9.8s 3;
+        }
+
+        .floor {
+            border: 2px solid orangered;
+            padding: 0;
+            margin: 0;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(-360%);
+            }
+
+            5% {
+                transform: translateY(0%);
+            }
+
+            10% {
+                transform: translateY(-324%);
+            }
+
+            15% {
+                transform: translateY(0%);
+            }
+
+            20% {
+                transform: translateY(-288%);
+            }
+
+            25% {
+                transform: translateY(0%);
+            }
+
+            30% {
+                transform: translateY(-252%);
+            }
+
+            35% {
+                transform: translateY(0%);
+            }
+
+            40% {
+                transform: translateY(-216%);
+            }
+
+            45% {
+                transform: translateY(0%);
+            }
+
+            50% {
+                transform: translateY(-180%);
+            }
+
+            55% {
+                transform: translateY(0%);
+            }
+
+            60% {
+                transform: translateY(-144%);
+            }
+
+            65% {
+                transform: translateY(0%);
+            }
+
+            70% {
+                transform: translateY(-108%);
+            }
+
+            75% {
+                transform: translateY(0%);
+            }
+
+            80% {
+                transform: translateY(-72%);
+            }
+
+            85% {
+                transform: translateY(0%);
+            }
+
+            90% {
+                transform: translateY(-36%);
+            }
+
+            95% {
+                transform: translateY(0%);
+            }
+
+            100% {
+                transform: translateY(0%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animation">
+        <span class="letter-b">
+            <img src="./media/letter-b.png" alt="img">
+        </span>
+        <span class="letter-o">
+            <img src="./media/letter-o.png" alt="img">
+
+        </span>
+        <span class="letter-u">
+            <img src="./media/letter-u.png" alt="img">
+
+        </span>
+        <span class="letter-n1">
+            <img src="./media/letter-n.png" alt="img">
+
+        </span>
+        <span class="letter-c">
+            <img src="./media/letter-c.png" alt="img">
+
+        </span>
+        <span class="letter-i">
+            <img src="./media/letter-i.png" alt="img">
+
+        </span>
+        <span class="letter-n2">
+            <img src="./media/letter-n.png" alt="img">
+
+        </span>
+        <span class="letter-g">
+            <img src="./media/letter-g.png" alt="img">
+
+        </span>
+        <div class="floor"></div>
+    </div>
+</body>
 
 </html>
